@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'mina'
-gem 'mina-sidekiq', :require => false 
-gem 'mina-unicorn', :require => false
+gem 'mina', '0.3.1'
+gem 'mina-sidekiq', '0.3.0', :require => false 
+gem 'mina-unicorn', '0.0.3', :require => false
+gem 'kgio', '2.9.2'
