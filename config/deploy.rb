@@ -2,7 +2,7 @@ require 'mina/bundler'
 require 'mina/rails'
 require 'mina/git'
 require 'mina/rbenv' 
-require 'mina_sidekiq/tasks' 
+#require 'mina_sidekiq/tasks' 
 require 'mina/unicorn'
 
 
@@ -63,7 +63,7 @@ task :deploy => :environment do
   invoke :'rails:assets_precompile'
 
   to :launch do
-    invoke :'sidekiq:restart' 
+    #invoke :'sidekiq:restart' 
     invoke :'unicorn:restart'
   end
  end
