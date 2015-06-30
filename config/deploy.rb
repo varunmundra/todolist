@@ -69,6 +69,23 @@ task :deploy => :environment do
  end
 end
 
+namespace :sidekiq do
+  task start: :environment do
+    queue %[echo "-----> Starting Sidekiq"]
+    queue "sudo initctl start sidekiq index=0 environment=#{rails_env}"
+  end
+
+  task stop: :environment do
+    queue %[echo "-----> Stopping Sidekiq"]
+    queue "sudo initctl stop sidekiq environment=#{rails_env}"
+  end
+
+  task restart: :environment do
+    invoke :"sidekiq:stop"
+    invoke :"sidekiq:start"
+  end
+end
+
 
 
 
