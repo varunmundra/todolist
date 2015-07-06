@@ -4,4 +4,7 @@ class StaticpagesController < ApplicationController
 	
 	def ashish
 	end
+
+	def p
+	end
 end
