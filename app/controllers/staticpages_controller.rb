@@ -1,10 +1,4 @@
 class StaticpagesController < ApplicationController
-	def contact
-	end
-	
-	def ashish
-	end
-
-	def p
+	def index
 	end
 end
