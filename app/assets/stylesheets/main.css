@@ -79,7 +79,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../assets/header-bg.jpg) no-repeat center top;
+	background: url(../assets/header-bg1.png) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -114,9 +114,9 @@ a:after {
 	letter-spacing: 2px;
 }
 
-/* Portfolio Wrap */
-#portfoliowrap {
-	background: url(../assets/portfolio-bg.jpg) no-repeat center top;
+/* About Wrap */
+#aboutwrap {
+	background: url(../assets/slide1.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:70px;
 	text-align:center;
@@ -137,7 +137,58 @@ a:after {
 }
 
 
-#portfoliowrap h3 {
+
+/* Services Wrap */
+#serviceswrap {
+	background: url(../assets/services-bg.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:70px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* technology Wrap */
+#technologywrap {
+	background: url(../assets/technology-bg.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:70px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#technologywrap h3 {
+	color: #ffffff;
+}
+
+#technologywrap h4 {
 	color: #ffffff;
 }
 
@@ -150,8 +201,8 @@ a:after {
 
 #w {
 	background: #ffffff;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 	text-align: center;
 }
 
