@@ -2,9 +2,13 @@ Rails.application.routes.draw do
 
   root 'staticpages#index'
 
-  get "staticpages/index"
 
  
+   resources :users 
+
+  match '/', to: 'staticpages#index', via: 'get'
+  match 'help', to: 'staticpages#help', via: 'get'
+
   
 
   # The priority is based upon order of creation: first created -> highest priority.
