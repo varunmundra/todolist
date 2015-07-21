@@ -26,12 +26,18 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Comfortaa";
+h1, h2, h3, h4, h6 {
+    font-family: "Raleway";
     font-weight: 300;
     color: #333;
 }
 
+h5 {
+	font-family: "Raleway";
+    font-weight: 300;
+	letter-spacing: 1px;
+  	line-height: 20px;
+}
 
 /* Paragraph & Typographic */
 p {
@@ -143,6 +149,27 @@ a:after {
 	letter-spacing: 2px;
 }*/
 
+#headerwrap3 {
+	background: url(../assets/header-bg3.png) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #my_carousel .carousel-caption h1, h2 {
 	font-weight: 900;
 }
@@ -178,7 +205,7 @@ a:after {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 500px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -194,12 +221,9 @@ a:after {
 
 #aboutwrap h3 {
 	color: #ffffff;
-}
-
-#aboutwrap p {
-	font-size: 18px;
-  	letter-spacing: 1px;
-  	word-spacing: 3px;
+	letter-spacing: 2px;
+  	word-spacing: 4px;
+  	line-height: 30px;
 }
 
 
@@ -255,6 +279,7 @@ a:after {
 
 #technologywrap h4, h5 {
 	color: #ffffff;
+	letter-spacing: 1px;
 }
 
 .port-space {
@@ -329,7 +354,12 @@ address h5 {
 	font-weight: 700;
 	color: #7b7b7b;
 	letter-spacing: 1px;
-	text-transform: capitalize;
+	line-height: 30px;
+	/*text-transform: capitalize;*/
+}
+
+#w h4 {
+	line-height: 25px;
 }
 
 #w h5 {
