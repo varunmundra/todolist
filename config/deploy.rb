@@ -8,7 +8,7 @@ require 'mina/unicorn'
 
 
 set :rails_env, 'production'
-set :domain, 'www.codestains.com'
+set :domain, '128.199.76.6'
 set :deploy_to, '/home/varun/www/todolist' 
 set :repository, 'https://github.com/varunmundra/todolist.git'
 set :branch, 'master'
