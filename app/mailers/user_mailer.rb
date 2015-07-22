@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "priyanko.dey33@gmail.com"
+  default from: "info@codestains.com"
 
   def welcome_email(user)
     @user = user
@@ -9,6 +9,6 @@ class UserMailer < ActionMailer::Base
 
    def query_mail(user)
   	@user=user
-    mail(:to => "priyanko.dey33@gmail.com", :subject => "Getting Quote")
+    mail(:to => "info@codestains.com", :subject => "Getting Quote")
    end
 end

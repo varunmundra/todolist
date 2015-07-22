@@ -78,6 +78,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
 
-  config.action_mailer.default_url_options = { :host => 'http://128.199.76.6' }
+  config.action_mailer.default_url_options = { :host => 'http://codestains.com' }
   config.action_mailer.delivery_method = :smtp
 end
