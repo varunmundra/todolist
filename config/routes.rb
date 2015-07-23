@@ -6,8 +6,8 @@ Rails.application.routes.draw do
  
    resources :users 
 
-  match '/', to: 'staticpages#index', via: 'get'
-  match 'help', to: 'staticpages#help', via: 'get'
+  #match '/', to: 'staticpages#index', via: 'get'
+  #match 'help', to: 'staticpages#help', via: 'get'
 
   
 
